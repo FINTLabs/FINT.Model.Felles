@@ -41,8 +41,12 @@
   <ItemGroup>
     <Compile Include="Model\Adresse.cs" />
     <Compile Include="Model\Aktor.cs" />
+    <Compile Include="Model\Begrep.cs" />
     <Compile Include="Model\Enhet.cs" />
     <Compile Include="Model\Identifikator.cs" />
+    <Compile Include="Model\Iso\Kjonn.cs" />
+    <Compile Include="Model\Iso\Landkode.cs" />
+    <Compile Include="Model\Iso\Sprak.cs" />
     <Compile Include="Model\Kontaktinformasjon.cs" />
     <Compile Include="Model\Periode.cs" />
     <Compile Include="Model\Person.cs" />

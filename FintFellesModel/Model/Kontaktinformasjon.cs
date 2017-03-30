@@ -6,5 +6,6 @@
         public string Telefonnummer { get; set; }
         public string Mobiltelefonummer { get; set; }
         public string Nettsted { get; set; }
+        public string sip { get; set; }
     }
 }

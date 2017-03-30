@@ -8,6 +8,8 @@ namespace FintFellesModel
     {
         public Identifikator Organisasjonsnummer { get; set; }
         public string Organisasjonsnavn { get; set; }
-        public Adresse Foretningsadresse { get; set; }
+        public Adresse Foretningsadresse { get; set; }  
     }
 }
+
+

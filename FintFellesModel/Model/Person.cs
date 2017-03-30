@@ -10,9 +10,7 @@ namespace FintFellesModel
         public Identifikator Foedselsnummer { get; set; }
         public Personnavn Navn { get; set; }
         public string Kjoenn { get; set; }
-        public DateTime Foedselsdato { get; set; }
-        public string Statsborgerskap { get; set; }
-        
+        public DateTime? Foedselsdato { get; set; }
         public Adresse Bostedsadresse { get; set; }
     }
 }
