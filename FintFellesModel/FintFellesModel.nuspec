@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>FintFellesModel</id>
+    <id>fint-felles-model-csharp</id>
     <version>1.0.0-rc2</version>
-    <title>FintFellesModel</title>
+    <title>fint-felles-model-csharp</title>
     <authors>oae</authors>
     <owners>oae</owners>
     <projectUrl>http://github.com/fintprosjektet</projectUrl>
@@ -15,6 +15,6 @@
   </metadata>
   <files>
     <file src="bin\Release\FintFellesModel.dll" target="lib\netstandard1.4\FintFellesModel.dll" />
-    <file src="bin\Release\FintFellesModel.xml" target="lib\netstandard1.4\FintFellesModel.xml" />
+    <!-- <file src="bin\Release\FintFellesModel.xml" target="lib\netstandard1.4\FintFellesModel.xml" /> -->
   </files>
 </package>
