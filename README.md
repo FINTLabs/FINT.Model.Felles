@@ -6,6 +6,11 @@
 
 ## Pack and deploy to Bintray
 ```
-nuget pack FintFellesModel.nuspec
-nuget push fint-felles-model-csharp.1.0.0-rc2.nupkg -Source https://api.bintray.com/nuget/fint/nuget
+msbuild /t:pack /p:Configuration=Release
+nuget push FINT.Model.Felles\bin\Release\FINT.Model.Felles.0.0.1.nupkg -Source https://api.bintray.com/nuget/fint/nuget
+```
+
+For å sette nuget api-key: 
+```
+nuget setApiKey <Your-API-Key>
 ```
