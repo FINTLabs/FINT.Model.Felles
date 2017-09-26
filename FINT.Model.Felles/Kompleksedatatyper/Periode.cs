@@ -1,12 +1,13 @@
-using System;
+// Built from tag v2.0.0
 
+using System;
 
 namespace FINT.Model.Felles.Kompleksedatatyper
 {
-	public class Periode {
-	
-		public DateTime start { get; set; }
-		public DateTime slutt { get; set; }
-		
-	}
+    public class Periode
+    {
+        public string Beskrivelse { get; set; }
+        public DateTime Slutt { get; set; }
+        public DateTime Start { get; set; }
+    }
 }

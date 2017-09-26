@@ -1,15 +1,13 @@
-using System;
-
+// Built from tag v2.0.0
 
 namespace FINT.Model.Felles.Kompleksedatatyper
 {
-	public class Kontaktinformasjon {
-	
-		public string epostadresse { get; set; }
-		public string telefonnummer { get; set; }
-		public string mobiltelefonnummer { get; set; }
-		public string nettsted { get; set; }
-		public string sip { get; set; }
-		
-	}
+    public class Kontaktinformasjon
+    {
+        public string Epostadresse { get; set; }
+        public string Mobiltelefonnummer { get; set; }
+        public string Nettsted { get; set; }
+        public string Sip { get; set; }
+        public string Telefonnummer { get; set; }
+    }
 }

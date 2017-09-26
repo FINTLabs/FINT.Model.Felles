@@ -5,6 +5,7 @@
 
 ## Pack and deploy to Bintray
 ```
-msbuild /t:pack /p:Configuration=Release
-nuget push FINT.Model.Felles\bin\Release\FINT.Model.Felles.0.0.1.nupkg -Source https://api.bintray.com/nuget/fint/nuget
+$ dotnet build -c Release
+$ dotnet pack -c Release
+nuget push FINT.Model.Felles\bin\Release\FINT.Model.Felles.<VERSION>.nupkg -Source https://api.bintray.com/nuget/fint/nuget
 ```

@@ -1,14 +1,10 @@
-using System;
-
-
-using FINT.Model.Felles.Kompleksedatatyper;
+// Built from tag v2.0.0
 
 namespace FINT.Model.Felles.Kompleksedatatyper
 {
-	public class Identifikator {
-	
-		public string identifikatorverdi { get; set; }
-		public Periode gyldighetsperiode { get; set; }
-		
-	}
+    public class Identifikator
+    {
+        public Periode Gyldighetsperiode { get; set; }
+        public string Identifikatorverdi { get; set; }
+    }
 }

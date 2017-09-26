@@ -1,16 +1,13 @@
-using System;
-
+// Built from tag v2.0.0
 
 using FINT.Model.Felles.Kompleksedatatyper;
-using FINT.Model.Felles.Basisklasser;
 
 namespace FINT.Model.Felles.Basisklasser
 {
-	public abstract class Enhet : Aktor {
-	
-		public Identifikator organisasjonsnummer { get; set; }
-		public string organisasjonsnavn { get; set; }
-		public Adresse forretningsadresse { get; set; }
-		
-	}
+    public abstract class Enhet : Aktor
+    {
+        public Adresse Forretningsadresse { get; set; }
+        public string Organisasjonsnavn { get; set; }
+        public Identifikator Organisasjonsnummer { get; set; }
+    }
 }

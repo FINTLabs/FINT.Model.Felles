@@ -1,16 +1,14 @@
-using System;
-
+// Built from tag v2.0.0
 
 using FINT.Model.Felles.Kompleksedatatyper;
 
 namespace FINT.Model.Felles.Basisklasser
 {
-	public abstract class Begrep {
-	
-		public Identifikator systemId { get; set; }
-		public string kode { get; set; }
-		public string navn { get; set; }
-		public Periode gyldighetsperiode { get; set; }
-		
-	}
+    public abstract class Begrep
+    {
+        public Periode Gyldighetsperiode { get; set; }
+        public string Kode { get; set; }
+        public string Navn { get; set; }
+        public Identifikator SystemId { get; set; }
+    }
 }
