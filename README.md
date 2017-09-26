@@ -7,5 +7,5 @@
 ```
 $ dotnet build -c Release
 $ dotnet pack -c Release
-nuget push FINT.Model.Felles\bin\Release\FINT.Model.Felles.<VERSION>.nupkg -Source https://api.bintray.com/nuget/fint/nuget
+dotnet nuget push FINT.Model.Felles\bin\Release\FINT.Model.Felles.<VERSION>.nupkg -s https://api.bintray.com/nuget/fint/nuget
 ```
