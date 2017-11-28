@@ -4,8 +4,7 @@
 
 
 ## Pack and deploy to Bintray
-```
-$ dotnet build -c Release
-$ dotnet pack -c Release
-$ dotnet nuget push FINT.Model.Felles\bin\Release\FINT.Model.Felles.<VERSION>.nupkg -s https://api.bintray.com/nuget/fint/nuget
-```
+
+1. Update version number in `Jenkinsfile`
+2. Commit and push.
+3. :coffeetime:
