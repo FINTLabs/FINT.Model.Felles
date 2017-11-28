@@ -1,19 +1,22 @@
-// Built from tag v2.0.10
+// Built from tag v2.2.10
 
+using System;
 using System.Collections.Generic;
+
+
 
 namespace FINT.Model.Felles.Kompleksedatatyper
 {
-    public class Adresse
-    {
-        public enum Relasjonsnavn
+	public class Adresse {
+		public enum Relasjonsnavn
         {
-            LAND
+			LAND
         }
-
-
-        public List<string> Adresselinje { get; set; }
-        public string Postnummer { get; set; }
-        public string Poststed { get; set; }
-    }
+        
+	
+		public List<string> Adresselinje { get; set; }
+		public string Postnummer { get; set; }
+		public string Poststed { get; set; }
+		
+	}
 }
