@@ -8,10 +8,13 @@ pipeline {
           image 'microsoft/dotnet'
         }
       }
+      environment {
+        VERSION = '2.2.20'
+      }
       steps {
-        sh 'dotnet restore -p:Version=2.2.10'
-        sh 'dotnet build -c Release -p:Version=2.2.10'
-        sh 'dotnet pack -c Release -p:Version=2.2.10'
+        sh 'dotnet restore -s https://api.bintray.com/nuget/fint/nuget'
+        sh 'dotnet build -c Release'
+        sh 'dotnet pack -c Release'
         stash includes: '**/Release/*.nupkg', name: 'libs'
       }
     }
