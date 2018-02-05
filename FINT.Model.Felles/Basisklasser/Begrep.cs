@@ -1,4 +1,4 @@
-// Built from tag v2.2.20
+// Built from tag v2.4.0-rc-4
 
 using System;
 using System.Collections.Generic;
@@ -14,6 +14,7 @@ namespace FINT.Model.Felles.Basisklasser
 		public Periode Gyldighetsperiode { get; set; }
 		public string Kode { get; set; }
 		public string Navn { get; set; }
+		public bool? Passiv { get; set; }
 		public Identifikator SystemId { get; set; }
 		
 	}
