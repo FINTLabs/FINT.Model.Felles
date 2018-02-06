@@ -9,7 +9,7 @@ pipeline {
         }
       }
       steps {
-        sh 'dotnet clean'
+        sh 'git clean -fdx'
         sh 'dotnet restore -s https://api.bintray.com/nuget/fint/nuget'
         sh 'dotnet build -c Release'
         sh 'dotnet pack -c Release'
