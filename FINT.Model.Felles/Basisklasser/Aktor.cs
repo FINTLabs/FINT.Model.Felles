@@ -1,4 +1,4 @@
-// Built from tag v2.4.0-rc-4
+// Built from tag v2.4.0
 
 using System;
 using System.Collections.Generic;
