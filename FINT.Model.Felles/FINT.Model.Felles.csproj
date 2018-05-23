@@ -8,7 +8,7 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>FINT shared model</PackageReleaseNotes>
     <PackageTags>fint</PackageTags>
-    <Version>2.7.0</Version>
+    <Version>$([System.IO.File]::ReadAllText("version.txt"))</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
