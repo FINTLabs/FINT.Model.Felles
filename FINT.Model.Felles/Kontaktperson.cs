@@ -5,6 +5,8 @@ using System.Collections.Generic;
 
 
 
+using FINT.Model.Felles.Kompleksedatatyper;
+
 namespace FINT.Model.Felles
 {
 	public class Kontaktperson {
@@ -16,6 +18,7 @@ namespace FINT.Model.Felles
         
 	
 		public bool Foreldreansvar { get; set; }
+		public Identifikator SystemId { get; set; }
 		public string Type { get; set; }
 		
 	}
