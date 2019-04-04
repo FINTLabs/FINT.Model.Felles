@@ -1,4 +1,4 @@
-// Built from tag v3.1.0
+// Built from tag v3.2.0-rc-1
 
 using System;
 using System.Collections.Generic;
@@ -18,6 +18,8 @@ namespace FINT.Model.Felles
         
 	
 		public bool Foreldreansvar { get; set; }
+		public Kontaktinformasjon Kontaktinformasjon { get; set; }
+		public Personnavn Navn { get; set; }
 		public Identifikator SystemId { get; set; }
 		public string Type { get; set; }
 		
